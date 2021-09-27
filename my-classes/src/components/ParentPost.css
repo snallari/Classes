@@ -1,0 +1,117 @@
+.postContainer{
+    margin: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: lightsteelblue !important;
+    height: max-content;
+}
+
+.postHeader{
+    color: lightsalmon;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.addPost{
+    color: white;
+}
+
+.unassigned{
+    background-color: white;
+    padding: 10px;
+}
+.math8{
+    background-color: #f48fb1;
+    padding: 10px;
+}
+.mathcore{
+    background-color: #ef9a9a;
+    padding: 10px;
+}
+.algebra{
+    background-color: #9fa8da;
+    padding: 10px;
+}
+.alert{
+    color:red;
+    font-size: 12px !important;
+}
+
+.btnClass{
+    margin-top: 27px;
+    background-color: lightsteelblue !important;
+    color: white;
+}
+
+.mar-top{
+    margin-top:27px;
+}
+
+.item{
+    margin: 10px;
+    text-align: start;
+    padding: 10px;
+    background-color: lightcoral
+}
+.itemText{
+    text-overflow: ellipsis !important;
+    white-space: nowrap;
+    width: 150px;
+    overflow: hidden;
+    font-size: 10px;
+}
+.itemHeaderText{
+    font-size: 12px;
+    font-weight: bold;
+}
+.itemSubHeaderText{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.MuiButton-containedPrimary{
+    background-color: lightsteelblue !important;
+    color: white;
+}
+
+.mar-top{
+    margin-top:27px;
+}
+
+.MuiFormControl-root{
+    margin-top: 10px;
+}
+.MuiTextField-root{
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.menuSize{
+    font-size: 20px !important;
+    padding: -10px !important;
+}
+
+/* .MuiInputLabel-outlined{
+    background-color: lightsteelblue !important;
+    color: lightsteelblue !important;
+}
+
+.MuiFormLabel-root.Mui-focus{
+    color: lightsteelblue !important;
+} */
+.MuiSelect-selectMenu{
+    white-space: normal !important;
+}
+.thumbnailPost{
+    margin: 10px;
+    width: 140px;
+    height: 140px;
+}
+.postSpaces{
+    padding: 10px !important;
+}
+
+.post{
+    background-color:white !important;
+    margin: 10px !important;
+}
