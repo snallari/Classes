@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ThemeProvider from '@material-ui/styles/ThemeProvider';
 import PostDetailsContainer from './components/Details/PostDetailsContainer';
 import ClassesTheme from './components/ClassesTheme';
+import Login from './components/Login/Login';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Suspense fallback={<div>Loading...</div>}>
             <Switch>
               <Route exact path="/">
-                <ParentPost />
+                <Login/>
               </Route>
               <Route path="/posts">
                 <ParentPost />
